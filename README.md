@@ -8,7 +8,7 @@ The entire project was divided in 3 parts:
 3. Labelling the data & training<br>
    -Using makesense.ai I labelled the ~120 images I then used for the training of detecting the 12 different ores in the game<br>
    -120 is a very small number, usually you would take atleast 5-10x that, however it worked suprisingly well<br>
-   -Sometimes there are false positives or it fails to detect an ore it should detect which is due to the small sample size
+   -Sometimes there are false positives or it fails to detect an ore it should detect which is due to the small sample size<br>
    -<a href="https://huggingface.co/minogo/yolov11-planetcrafter-ore-detector/resolve/main/detector.pt">Download Model</a>
    
 5. Realtime detection<br>
